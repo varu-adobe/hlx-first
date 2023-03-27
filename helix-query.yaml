@@ -3,7 +3,7 @@ indices:
   channels:
     include:
       - '/**'
-    target: '/channels'
+    target: '/screens/channels'
     properties:
       title:
         select: head > meta[property="og:title"]
