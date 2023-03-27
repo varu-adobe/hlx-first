@@ -1,0 +1,55 @@
+{
+  "version": "3.0",
+  "contentDelivery": {
+    "providers": [
+      {
+        "name": "franklin",
+        "endpoint": "/"
+      }
+    ],
+    "defaultProvider": "franklin"
+  },
+  "timestamp": 1679905452827,
+"entries": [
+{
+"path": "/inside-adobe",
+"timestamp": 1679901403000
+},
+{
+"path": "/scripts/lib-franklin.js",
+"timestamp": 1677381010000
+},
+{
+"path": "/scripts/scripts.js",
+"timestamp": 1677381011000
+},
+{
+"path": "/styles/styles.css",
+"timestamp": 1679843961000
+},
+{
+"path": "/inside-adobe-schedule.json",
+"timestamp": 1679820069000
+},
+{
+"path": "/blocks/loop/loop.js",
+"timestamp": 1679843961000
+},
+{
+"path": "/blocks/loop/loop.css",
+"timestamp": 1679843961000
+},
+{
+"path": "/blocks/header/header.css",
+"timestamp": 1677381009000
+},
+{
+"path": "/blocks/footer/footer.css",
+"timestamp": 1677381009000
+},
+{
+"path": "/styles/lazy-styles.css",
+"timestamp": 1677381011000
+}
+]
+}
