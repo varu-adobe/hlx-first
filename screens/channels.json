@@ -1,0 +1,14 @@
+{
+  "channels": [
+    {
+      "manifestPath": "/inside-adobe.manifest.json",
+      "lastModified": "2023-03-27T12:10:32.000Z",
+      "externalId": "/inside-adobe",
+      "title": "Home | Helix Project Boilerplate",
+      "liveUrl": "https://main--hlx-first--varu-adobe.hlx.live/inside-adobe"
+    }
+  ],
+  "metadata": {
+    "providerType": "franklin"
+  }
+}
