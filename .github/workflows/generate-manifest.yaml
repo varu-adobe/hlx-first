@@ -1,4 +1,4 @@
-name: Generate manifest for franklin channels
+name: Generate offline resources for franklin channels
 
 on:
   repository_dispatch:
@@ -23,13 +23,13 @@ jobs:
           node-version: '14'
       - run: npm install
       - name: Generate Manifests
-        run: npm run generate-manifest helixManifest="/manifests"
+        run: npm run generate-manifest helixManifest="/manifests" helixChannelsList="/screens/internal/channels"
       - name: Commit files # transfer the generated manifest files back into the repository
         run: |
           git config --local user.name  ${{ github.actor }}
           git config --local user.email "<>"
           git add .
-          git commit -m "Generating manifests"
+          git commit -m "Generating offline resources"
       - name: Push changes  # push the generated manifest files to your repo
         uses: ad-m/github-push-action@master
         with:
