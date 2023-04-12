@@ -3,7 +3,7 @@ indices:
   channels:
     include:
       - '/**'
-    target: '/screens/channels'
+    target: '/screens/internal/channels'
     properties:
       title:
         select: head > meta[property="og:title"]
@@ -61,7 +61,7 @@ indices:
         select: head > link[rel*="preload"]
         values: |
           attribute(el, 'href')
-      inline-images:
+      inlineImages:
         select: body img
         values: |
           attribute(el, 'src')
