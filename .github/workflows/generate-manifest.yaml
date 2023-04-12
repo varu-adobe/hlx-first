@@ -23,7 +23,7 @@ jobs:
           node-version: '14'
       - run: npm install
       - name: Generate Manifests
-        run: npm run generate-manifest helixManifest="/manifests" helixChannelsList="/screens/internal/channels"
+        run: npm run generate-offlineresources helixManifest="/manifests" helixChannelsList="/screens/internal/channels"
       - name: Commit files # transfer the generated manifest files back into the repository
         run: |
           git config --local user.name  ${{ github.actor }}
